@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew tap caskroom/cask
+
 # Internet tools
 brew cask install google-chrome
 

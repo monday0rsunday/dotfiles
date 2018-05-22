@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "-editor.action.goToDeclaration"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+cmd+p",
+        "command": "workbench.action.openWorkspace"
+    }
+]
