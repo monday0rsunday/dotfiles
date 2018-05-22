@@ -1,0 +1,20 @@
+# Check whether a file/directory is symbolic or not
+# Return 0 if yes, non-zero number otherwise
+function is_symlink() {
+  file=$1
+  stat $file | awk '{print $3}' | grep '^l' > /dev/null
+  return $?
+}
+
+# Force link a file/directory, eventhough file or directory exist
+# if target is file/directory then it will be move to file/directory ended with ".old"
+# Return 0 always return 0
+function force_link() {
+  from_file=$1
+  to_link=$2
+  if is_symlink $to_link ; then
+    mv $to_link ${to_link}.old
+  fi
+  ln -sfv $from_file $to_link
+  return 0
+}
