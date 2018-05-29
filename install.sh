@@ -65,3 +65,9 @@ brew cask install anki
 brew cask install evernote
 brew cask install keepassx
 brew cask install teamviewer
+
+# ansible
+
+pip install ansible==2.4.2
+pip install requests
+pip install Jinja2
