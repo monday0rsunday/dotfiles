@@ -49,3 +49,20 @@ Visual Studio Code
    * Debugger for Chrome
    * Docker
    * Robot Framework Intellisense
+
+Vim
+---
+
+* Install pathogen: 
+
+```
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+
+* Install CtrlP
+
+```
+cd ~/.vim/bundle
+git clone https://github.com/ctrlpvim/ctrlp.vim
+```

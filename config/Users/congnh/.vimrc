@@ -1,7 +1,7 @@
 :syntax on
 :set number
 :set list
-:set runtimepath^=~/.vim/bundle/ctrlp.vim
+:execute pathogen#infect()
 :map gf <C-w>gf
 :map tc :tabclose<CR>
 :map tn :tabn<CR>
