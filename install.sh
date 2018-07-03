@@ -5,8 +5,8 @@ if ! [ $(command -v brew) ]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 brew tap homebrew/cask
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
+brew tap homebrew/services
 brew update
 
 # Internet tools
