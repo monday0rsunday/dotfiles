@@ -90,3 +90,5 @@ source <(doctl completion zsh)
 eval "$(pyenv init -)"
 #export PATH=$(npm bin):$PATH
 export GOPATH=~/.go:/Users/congnh/workspace/oreka/oreka-bolero/service
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
