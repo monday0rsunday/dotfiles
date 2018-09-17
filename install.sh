@@ -53,7 +53,24 @@ brew install wget
 brew install git
 brew install tree
 brew install fabric
-brew install youtube-dl
+
+# 7circles
+brew install mysql@5.5
+brew install thrift@0.9
+brew install phantomjs
+brew install imagemagick
+brew install rabbitmq
+brew install mongodb
+brew cask install robo-3t
+brew cask install mysqlworkbrench
+echo "/usr/local/opt/thrift@0.9/bin" | tee /etc/paths.d/thrift
+echo "/usr/local/opt/mysql@5.5/bin" | tee /etc/paths.d/mysql
+echo "/usr/local/sbin" | tee /etc/paths.d/rabbitmq
+
+rabbitmqctl add_user 7circles rabbitmq
+rabbitmqctl set_user_tags 7circles administrator
+rabbitmqctl set_permissions -p / nove '.*' '.*' '.*'
+
 
 # Docker
 brew cask install docker
@@ -71,3 +88,4 @@ brew cask install anki
 brew cask install evernote
 brew cask install keepassx
 brew cask install teamviewer
+brew install youtube-dl
