@@ -63,6 +63,7 @@ brew install rabbitmq
 brew install mongodb
 brew cask install robo-3t
 brew cask install mysqlworkbrench
+brew install elasticsearch
 echo "/usr/local/opt/thrift@0.9/bin" | tee /etc/paths.d/thrift
 echo "/usr/local/opt/mysql@5.5/bin" | tee /etc/paths.d/mysql
 echo "/usr/local/sbin" | tee /etc/paths.d/rabbitmq
