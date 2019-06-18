@@ -158,9 +158,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2053 44 918 452 1440 -180 1920 1057 </string>
+	<string>351 167 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1440 -157 1920 1034 1440 -180 1920 1057 </string>
+	<string>1440 -116 1920 1034 1440 -139 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1442,6 +1442,8 @@
 	<false/>
 	<key>Secure Input</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>SwitchPaneModifier</key>
 	<integer>5</integer>
 	<key>SwitchWindowModifier</key>
@@ -1451,7 +1453,7 @@
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
-	<string>/-+\~_.</string>
+	<string>psa-preprod-webapp1psa-preprod-webapp1</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>

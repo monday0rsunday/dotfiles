@@ -92,3 +92,16 @@ eval "$(pyenv init -)"
 export GOPATH=~/.go:/Users/congnh/workspace/oreka/oreka-bolero/service
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+alias gdl="git branch -d"
+alias gco="git checkout"
+alias glo="git log"
+alias gpl="git pull --prune origin"
+alias gps="git push"
+alias gba="git branch -a"
+alias gdf="git diff"
+alias gss="git status"
+alias gcm="git commit"
+alias gad="git add"
+alias gmr="git merge"
+alias grb="git rebase"
