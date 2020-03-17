@@ -33,6 +33,7 @@ Sublime3
    * GoSublime
    * Typescript
    * Terminal
+   * Terminus
    * Robot Framework Assitant
 
 Visual Studio Code
