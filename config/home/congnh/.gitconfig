@@ -1,0 +1,8 @@
+[core]
+	hooksPath = /home/congnh/workspace/7circles/script-conf-dev/setup/../git/hook-client/
+	editor = vim
+[submodule]
+	recurse = true
+[user]
+	email = cong.nguyen@sevencircles.com
+	name = cong

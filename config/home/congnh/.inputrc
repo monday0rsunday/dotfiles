@@ -1,0 +1,2 @@
+set bind-tty-special-chars off
+Control-Backspace: backward-kill-word
