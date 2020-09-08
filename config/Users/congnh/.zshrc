@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/congnh/workspace/oss/oh-my-zsh
+export ZSH=/home/congnh/workspace/oss/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -85,13 +85,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export LC_ALL=en_US.UTF-8
-source <(kubectl completion zsh)
-source <(doctl completion zsh)
-eval "$(pyenv init -)"
+#source <(kubectl completion zsh)
+#source <(doctl completion zsh)
+#eval "$(pyenv init -)"
 #export PATH=$(npm bin):$PATH
 export GOPATH=~/.go:/Users/congnh/workspace/oreka/oreka-bolero/service
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+#source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
 alias gdl="git branch -d"
 alias gco="git checkout"
@@ -107,6 +107,8 @@ alias gmr="git merge"
 alias grb="git rebase"
 alias gst="git stash"
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
-alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
-alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
-export PATH="/usr/local/opt/mongodb-community@4.0/bin:$PATH"
+#alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+#alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
+#export PATH="/usr/local/opt/mongodb-community@4.0/bin:$PATH"
+
+alias "ssh-finally-uat-webapp"='tmux new-session \; send-keys "ssh finally-uat-webapp1" C-m \; split-window -v \; send-keys "ssh finally-uat-webapp2" C-m \; setw synchronize-panes on \;'
